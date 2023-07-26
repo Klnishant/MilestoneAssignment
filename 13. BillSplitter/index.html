@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Bill Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Restaurant Bill Calculator</h1>
+  <div>
+    <label for="dishCost">Enter the cost of each dish (comma-separated): </label>
+    <input type="text" id="dishCost" placeholder="e.g. 10, 15, 20">
+  </div>
+  <div>
+    <label for="numPeople">Enter the number of people sharing each dish (comma-separated): </label>
+    <input type="text" id="numPeople" placeholder="e.g. 2, 3, 4">
+  </div>
+  <button onclick="calculateBill()">Calculate Bill</button>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

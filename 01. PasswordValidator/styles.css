@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div{
+    height: 400px;
+    width: 350px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#h1{
+    margin-bottom: 10px;
+    color: palevioletred;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#entered_password{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#cnf_password{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#Submit{
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgb(60, 60, 243);
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body id="body">
+    <div id="div">
+        <h1 id="h1">Rent Calculater</h1>
+        <div id="form">
+            <label for="selection">Select Car type</label>
+            <select id="car">
+                <option value="4000">Economy</option>
+                <option value="10000">Midsize</option>
+                <option value="20000">Luxury</option>
+            </select>
+
+            <label for="days">Enter Number Of Days</label>
+            <input type="number" id="days" placeholder="Enter number Of days" min="1">
+            <span for="result" id="result"></span>
+            <button onclick="calculate()" id="Submit">Calculate</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
